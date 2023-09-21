@@ -29,6 +29,20 @@ body {
    color: burlywood;
  } */
 
+ .button_render {
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border-color: aliceblue;
+
+  top: 12%;
+  left: 60%;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  z-index: 10;
+ }
+
 #scene_container {
    position: absolute;
    width: 100%;

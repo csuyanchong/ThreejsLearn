@@ -1,6 +1,7 @@
 import { createCamera } from "./componets/camera.js";
 import { createCircle } from "./componets/circle.js";
 import { createCube } from "./componets/cube.js";
+import { createLights } from "./componets/lights.js";
 import { createScene } from "./componets/scene.js";
 import { createSphere } from "./componets/sphere.js";
 import { createSquare } from "./componets/square.js";
@@ -23,6 +24,9 @@ class Wolrd {
       const cube = createCube();
       scene.add(cube[0]);
       scene.add(cube[1]);
+
+      const light = createLights();
+      scene.add(light);
       // const square = createSquare();
       // scene.add(square);
 
